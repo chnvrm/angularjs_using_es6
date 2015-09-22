@@ -1,0 +1,9 @@
+<div>
+   <table>
+       <tr data-ng-repeat="product in productCtrl.products">
+           <td>{{product.id}}</td>
+           <td>{{product.name}}</td>
+           <td><button data-ng-click="productCtrl.removeProduct($index)">remove</button></td>
+       </tr>
+   </table>
+</div>

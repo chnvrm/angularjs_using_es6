@@ -1,0 +1,9 @@
+{
+  "name": "angularjs_using_es6_demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-ui-router": "~0.2.15",
+    "requirejs": "~2.1.20"
+  }
+}

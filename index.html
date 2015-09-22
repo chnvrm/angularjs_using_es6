@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJs With Requirejs Demo</title>
+    <!-- data-main attribute tells require.js to load scripts/main.js after require.js loads. -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script data-main="final/app" src="bower_components/requirejs/require.js"></script>
+</head>
+    <body>
+        <h1><strong>AngularJs:</strong> Hello RequireJS....</h1>
+        <nav>
+            <ul>
+                <li><a ui-sref="home">home</a></li>
+                <li><a ui-sref="products">products</a></li>
+            </ul>
+        </nav>
+        <div ui-view></div>
+    </body>
+</html>
